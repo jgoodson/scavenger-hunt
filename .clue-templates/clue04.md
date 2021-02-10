@@ -28,6 +28,10 @@ had just done this
 
 The second file would overwrite the first, because they have the same name.
 
+You can also use the `history` command to retrieve the list of commands you
+have run in the current session. Helpful in case you forgot which clues you 
+have done!
+
 #### Keep Your Options Open ####
 
 Linux commands often have options that change how they behave. For instance,
