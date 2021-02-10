@@ -2,6 +2,9 @@
 
 https://xkcd.com/149/
 
+*Note, you won't be able to do any of this! Read for your own info or skip down
+to "Help. I can't sudo".
+
 #### `sudo` ####
 
 Linux has the concept of a `root` user, which is similar to the administrator

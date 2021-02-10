@@ -5,7 +5,7 @@
 Word count (`wc`) is a useful program. You can use it to tell how many lines,
 words, and/or characters are in a file:
 
-    wc README.md
+    wc /shared/scavenger-hunt/README.md
     
 This will print the number of lines, words, and characters, in that order. If
 you just want one of those, you can use `-l`, `-w`, or `-c`. 

@@ -17,14 +17,14 @@ locations, this next part should be easy.
 
 Let's copy all of the clues we've found so far to our saved-clues folder:
 
-    cp clues/{0}/clue saved-clues/clue2
-    cp clues/{1}/clue saved-clues/clue3
+    cp clues/[clue2 #]/clue saved-clues/clue2
+    cp clues/[clue3 #]/clue saved-clues/clue3
 
 This copies (`cp`) each clue to the new folder and gives them new names. If we
 had just done this
 
-    cp clues/{0}/clue saved-clues/
-    cp clues/{1}/clue saved-clues/
+    cp clues/[clue2 #]/clue saved-clues/
+    cp clues/[clue3 #]/clue saved-clues/
 
 The second file would overwrite the first, because they have the same name.
 

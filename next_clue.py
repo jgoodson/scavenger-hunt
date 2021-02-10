@@ -17,13 +17,13 @@ def check_hint(clue, hint):
     elif (clue == 6):
         return hint == os.getenv("PATH").split(":")[0]
     elif (clue == 7):
-        return hint == subprocess.check_output("which python", shell=True).strip()
+        return hint == subprocess.check_output("which python", shell=True).strip().decode()
     elif (clue == 8):
         return hint in ["acpi", "denied"]
     elif (clue == 9):
-        return hint == subprocess.check_output("wc -l /usr/share/dict/words", shell=True).strip().split()[0]
+        return hint == subprocess.check_output("wc -l /usr/share/dict/words", shell=True).strip().split()[0].decode()
     elif (clue == 10):
-        return hint == subprocess.check_output("grep -A 1 tactful /usr/share/dict/words", shell=True).strip().split('\n')[1]
+        return hint == subprocess.check_output("grep -A 1 tactful /usr/share/dict/words", shell=True).strip().decode().split('\n')[1]
     elif (clue == 11):
         return hint in ("-k 5 -n -r", "-k 5 -r -n", "-r -k 5 -n", "-r -n -k 5",\
             "-n -r -k 5", "-n -k 5 -r")

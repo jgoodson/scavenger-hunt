@@ -13,7 +13,9 @@ You can use this to create a small file, or start a new file:
 
     echo My bologna has a first name > oscar.txt
     
-If you look in oscar.txt you will see exactly what you typed. The `>` symbol
+If you look in oscar.txt you will see exactly what you typed. *Remember, you
+can't write to the /shared/scavenger-hunt folder so you will need to use your
+home directory or other folder you have write access to.* The `>` symbol
 used here is called a redirect. It redirects whatever would normally be printed
 to the screen to a file. You can try it with other commands:
 

@@ -42,5 +42,7 @@ be
 
     python next_clue.py [secret] 11 "-a -b -c"
     
+You will need to check the `sort` man page or consult other sources to find
+the options!
 
 
