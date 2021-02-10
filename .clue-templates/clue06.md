@@ -8,8 +8,8 @@ is? The answer is `which`:
 
     which mv
     
-This should print `/bin/mv`. This tells us that the `mv` command is installed
-in the `/bin/` directory. `which` itself is a program so you could try:
+This should print `/usr/bin/mv`. This tells us that the `mv` command is installed
+in the `/usr/bin/` directory. `which` itself is a program so you could try:
 
     which which
 

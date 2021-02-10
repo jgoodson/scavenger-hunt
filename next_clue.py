@@ -43,14 +43,14 @@ if __name__ == "__main__":
                                     gc.CLUE_SPACE, secret_number)
     #print clue_indexes
     if (check_hint(clue_number, hint)):
-        print gc.zero_pad(clue_indexes[clue_number - gc.START_CLUE])
+        print(gc.zero_pad(clue_indexes[clue_number - gc.START_CLUE]))
     else:
         R = random.Random()
         if (type(hint) == str):
-            md5 = hashlib.md5(hint)
-            hint_number = int(md5.hexdigest(),16)
+            md5 = hashlib.md5(hint.encode())
+            hint_number = int(md5.hexdigest(), 16)
         R.seed(secret_number + clue_number + hint_number)
-        print gc.zero_pad(R.randint(1, gc.CLUE_SPACE))
+        print(gc.zero_pad(R.randint(1, gc.CLUE_SPACE)))
 
 
 
