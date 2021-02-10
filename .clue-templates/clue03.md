@@ -42,6 +42,8 @@ is mapped to the hard drive.
 
 #### Find Clue 4 ####
 
+https://xkcd.com/910/
+
 Your hint for clue 4 is the file `/etc/hostname`. This file contains a single
 word, which is the name of your computer. This name is your hint. Remember we
 can find the next hint by typing

@@ -42,6 +42,8 @@ be
 
     python next_clue.py [secret] 11 "-a -b -c"
     
+https://xkcd.com/1168/ 
+   
 You will need to check the `sort` man page or consult other sources to find
 the options!
 
